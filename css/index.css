@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    text-transform: capitalize;
+}
+#container{
+    max-width: 1440px;
+    padding: 0 60px;
+}
+/* header  */
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(../image/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-area{
+    text-align: center;
+    transform: translateY(50%);
+}
+.header-area h1{
+    font-size: 60px;
+    color: #fff;
+}
+.header-area p{
+    font-size: 18px;
+    color: #fff;
+}
+.header-area button{
+    padding: 15px 40px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.header-area button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* end header */
+/* start main */
+.main-donate-area{
+    margin-top: 100px;
+    text-align: center;
+}
+.main-donate-area h1{
+    font-weight: 900;
+}
+.main-donate-area p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.donate-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate-area div{
+    margin-right: 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px ;
+    border: 2px solid transparent;
+}
+.donate-area div:last-child{
+    margin-right: 0px;
+}
+.donate-area div:hover{
+    background-color: rgb(245, 200, 192);
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.main-donate-area input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    word-spacing: 4px;
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.main-donate-area hr{
+    width: 750px;
+    margin: 0 auto;
+}
+.main-donate-area button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color:#FF6347 ;
+    border: none;
+    border-radius: 10px;
+}
+.main-donate-area button a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
