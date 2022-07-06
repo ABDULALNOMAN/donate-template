@@ -10,10 +10,8 @@ body{
     text-transform: capitalize;
 }
 #container{
-    max-width: 1600px;
-    margin: 0 auto;
+    max-width: 1440px;
     padding: 0 100px;
-    margin-bottom:150px ;
 }
 
 
