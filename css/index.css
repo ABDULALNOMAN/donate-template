@@ -11,8 +11,12 @@ body{
 }
 #container{
     max-width: 1440px;
-    padding: 0 60px;
+    padding: 0 100px;
 }
+
+
+
+
 /* header  */
 header{
     height: 100vh;
@@ -46,7 +50,11 @@ header{
     font-size: 18px;
     text-transform: capitalize;
 }
-/* end header */
+
+
+
+
+
 /* start main */
 .main-donate-area{
     margin-top: 100px;
@@ -57,6 +65,7 @@ header{
 }
 .main-donate-area p{
     margin-top: 10px;
+    font-size: 17px;
     margin-bottom: 30px;
 }
 .donate-area{
@@ -86,6 +95,7 @@ header{
     text-transform: capitalize;
     margin-top: 60px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .main-donate-area hr{
     width: 750px;
@@ -103,5 +113,177 @@ header{
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+
+
+
+/* start  main-plan-area */
+.main-plan-area{
+    text-align: center;
+    margin-top: 130px;
+}
+.main-plan-area h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.main-plan-area p{
+    color: rgb(65, 64, 64);
+    margin-bottom: 40px;
+}
+
+.diffarane-donate-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: cneter;
+}
+.diffarane-donate-plan div{
+    width: 330px;
+    padding: 40px 30px 0px 30px;
+    box-shadow: 1px 1px 10px black;
+}
+.diffarane-donate-plan div:hover{
+    transition: 3s;
+    box-shadow: none;
+}
+.diffarane-donate-plan img{
+    width: 80px;
+    height: 80px;
+}
+.diffarane-donate-plan h2{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: rgb(52, 51, 51);
+}
+.diffarane-donate-plan h2::first-letter{
+    font-size: 33px;
+    color: rgb(100, 202, 236);
+}
+.diffarane-donate-plan p{
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: rgb(99, 97, 97);
+    text-align: justify;
+}
+
+
+
+
+/* start aside-section */
+.aside-area{
+    margin-top: 150px;
+}
+.aside-section-area div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.aside-section-area .background-img{
+    height: 70vh;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../image/donation3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.aside-section-area .background-img img{
+    width: 300px;
+    transform: translateY(50%);
+}
+.aside-section-area .background-img-content{
+    background-color: rgb(105, 141, 170);
+    color: #fff;
+    padding: 20px 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.aside-section-area .background-img-content h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #f0e8e7;
+}
+.aside-section-area .background-img-content p{
+    font-size: 17px;
+    color: rgb(215, 208, 208);
+}
+
+
+
+
+/* start  main-update section */
+.main-update-section{
+    margin-top:150px ;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.main-update-section h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+.main-update-section p{
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(92, 91, 91);
+    margin-bottom: 30px;
+}
+.email-update-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-right: 140px;
+    margin-left: 140px;
+    background-color: rgb(252, 224, 218);
+}
+.email-update-section input{
+    width:270px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: rgba(157, 155, 155, 0.746);
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+}
+.email-update-section button{
+    width:150px;
+    height: 40px;
+    border: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(249, 49, 13);
+}
+.email-update-section button a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+
+
+
+/* start footer-area */
+.footer-area{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    background-color: #000;
+    height: 150px;
+    text-align: center;
+}
+.footer-section{
+    transform: translateY(50%);
+}
+.footer-section h2{
+    color: orangered;
 }
 
